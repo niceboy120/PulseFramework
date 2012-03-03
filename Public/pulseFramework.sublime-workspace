@@ -1,0 +1,420 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"name",
+				"name	@name"
+			],
+			[
+				"version",
+				"version	@version"
+			],
+			[
+				"filesource",
+				"filesource	@filesource"
+			],
+			[
+				"current",
+				"current_namespace"
+			],
+			[
+				"curr",
+				"current_namespace"
+			],
+			[
+				"Con",
+				"ConfigFileNotFoundException"
+			],
+			[
+				"fig",
+				"figureOutServer"
+			],
+			[
+				"toke",
+				"token_credentials"
+			],
+			[
+				"genera",
+				"generate_filename"
+			],
+			[
+				"art",
+				"artists"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"_f",
+				"_file_contents"
+			],
+			[
+				"_",
+				"_basePath"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"js",
+				"JSDocs: Decorate line comment"
+			],
+			[
+				"j",
+				"JSDocs: Decorate line comment"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"template",
+				"Create file from Template"
+			],
+			[
+				"fileTem",
+				"Create file from Template"
+			],
+			[
+				"fetch",
+				"Fetch: Manage remote files"
+			],
+			[
+				"f",
+				"Fetch"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"consol",
+				"Set Syntax: R Console"
+			],
+			[
+				"s php",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 626.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/pulse/Public/index.php",
+		"/C/wamp/www/pulse/Packages/Core/Classes/Input.php",
+		"/C/wamp/www/pulse/Packages/Core/Classes/Autoloader.php",
+		"/C/wamp/www/pulse/Packages/App/Config/Application.php",
+		"/C/wamp/www/pulse/Packages/Core/Classes/Config.php",
+		"/C/wamp/www/pulse/Packages/Core/Classes/Pulse.php",
+		"/C/wamp/www/fuel/fuel/app/migrations/013_create_admin_artists.php",
+		"/C/wamp/www/fuel/fuel/packages/auth/classes/auth.php",
+		"/C/wamp/www/fuel/fuel/packages/auth/classes/auth/driver.php",
+		"/C/wamp/www/fuel/fuel/packages/auth/classes/auth/login/simpleauth.php",
+		"/C/wamp/www/fuel/fuel/app/migrations/011_create_admin_artists.php",
+		"/C/wamp/www/pulse/Public/pulseFramework.sublime-project",
+		"/D/wamp/www/pulse/Packages/App/Config/Application.php",
+		"/D/wamp/www/pulse/Packages/Core/Classes/Driver.php",
+		"/D/wamp/www/pulse/Packages/Core/Classes/Request.php",
+		"/D/wamp/www/pulse/Packages/Core/Classes/Dispatcher.php",
+		"/D/wamp/www/pulse/Packages/Core/Classes/Pulse.php",
+		"/D/wamp/www/pulse/Packages/Core/Classes/Event.php",
+		"/D/wamp/www/pulse/Packages/Core/Classes/Config.php",
+		"/D/wamp/www/pulse/Packages/Core/Classes/Autoloader.php",
+		"/D/wamp/www/old/minute/minute/Config/Config.php",
+		"/D/wamp/www/old/scale/scale/Core/Config/Config.php",
+		"/D/wamp/www/pulse/Public/index.php",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/DocBlockr/Base File.sublime-settings",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/DocBlox/docblox.sublime-settings",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/docblox.sublime-settings",
+		"/D/wamp/www/levelframework/level/app/config/config.php",
+		"/D/wamp/www/levelframework/helloworld.php.php",
+		"/D/wamp/www/playfair.php",
+		"/D/wamp/www/level/oil",
+		"/D/wamp/www/house/house/Run.php",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/D/wamp/www/house/basement/Pipes/Builder/Builder.php",
+		"/D/wamp/www/scale/README.md",
+		"/D/wamp/www/house/door/index.php",
+		"/D/wamp/www/house/basement/Run.php",
+		"/D/wamp/www/house/mainfloor/config/Application.json",
+		"/D/wamp/www/house/basement/Pipes/Config/Config.php",
+		"/D/wamp/www/house/basement/Pipes/Autoloader.php",
+		"/D/wamp/www/house/basement/Pipes/Core/Load.php",
+		"/D/wamp/www/fuel/fuel/app/config/config.php",
+		"/D/wamp/www/house/basement/Pipes/Autoloader/Autoloader.php",
+		"/D/wamp/www/house/basement/Pipes/Config/Exception/KeyInConfigNotFoundException.php",
+		"/D/wamp/www/house/basement/Pipes/Config/Exception/ConfigFileNotFoundException.php",
+		"/D/wamp/www/scale/scale/Core/Config/Config.php",
+		"/D/wamp/www/fuel/oil",
+		"/D/wamp/www/house/door/.htaccess",
+		"/D/wamp/www/house/.htaccess",
+		"/D/wamp/www/scale/gem",
+		"/D/wamp/www/scale/scale/Core/Event/Event.php",
+		"/D/wamp/www/fuel/fuel/app/views/template.php",
+		"/C/Users/Daniel/AppData/Local/Temp/Rar$DR00.905/bootstrap/css/bootstrap.css",
+		"/D/wamp/www/fuel/fuel/app/views/home_template.php",
+		"/D/wamp/www/scale/scale/Core/Dispatcher/Dispatcher.php",
+		"/D/wamp/www/fuel/public/assets/css/design.css",
+		"/D/wamp/www/scale/public/index.php",
+		"/D/wamp/www/scale/scale/Run.php",
+		"/D/wamp/www/fuel/public/index.php",
+		"/D/wamp/www/fuel/fuel/core/tasks/migrate.php",
+		"/D/wamp/www/pha/phabricator/conf/__init_conf__.php",
+		"/D/wamp/www/pha/phabricator/conf/default.conf.php",
+		"/D/wamp/www/pha/phabricator/conf/development.conf.php",
+		"/D/wamp/www/pha/phabricator/scripts/daemon/phabricator_daemon_launcher.php",
+		"/D/wamp/www/pha/phabricator/.arcconfig",
+		"/D/wamp/www/pha/phabricator/.divinerconfig",
+		"/D/wamp/www/scale/scale/Core/Autoloader/Autoloader.php",
+		"/D/wamp/www/scale/scale/Core/Database/AbstractDatabase.php",
+		"/D/wamp/www/scale/app/config/Application.json",
+		"/D/wamp/www/scale/.htaccess",
+		"/D/wamp/www/scale/scale/Core/Request/Request.php",
+		"/D/wamp/www/scale/gem.php",
+		"/D/wamp/www/fuel/.htaccess",
+		"/D/wamp/www/scale/README",
+		"/C/Users/Daniel/.ssh/id_rsa.pub",
+		"/D/wamp/www/scale/scale/Core/Config/Exceptions/ConfigFileNotFoundException.php",
+		"/D/wamp/www/scale/scale/Core/Config/Exceptions/KeyInConfigNotFoundException.php",
+		"/D/wamp/www/scale/scale/Core/Controller/Controller.php",
+		"/D/wamp/old/FractionEngine/system/engine/core/Router.php",
+		"/D/wamp/www/scale/app/config/Routes.json",
+		"/D/wamp/www/fuel/fuel/app/classes/model/user.php",
+		"/D/wamp/www/fuel/fuel/app/views/login/index.php",
+		"/D/wamp/www/scale/scale/Core/Core/Run.php",
+		"/D/wamp/www/dub-level-hmvc/application/modules/home/views/welcome/index.php",
+		"/D/wamp/www/dub-level-hmvc/assets/css/design.css",
+		"/D/wamp/www/fuel/fuel/app/classes/controller/welcome.php",
+		"/D/wamp/www/fuel/fuel/app/views/register/index.php",
+		"/D/wamp/www/fuel/fuel/app/classes/controller/base.php",
+		"/D/wamp/www/fuel/fuel/packages/casset/classes/casset.php",
+		"/D/wamp/www/fuel/fuel/packages/casset/config/casset.php",
+		"/D/wamp/www/fuel/public/.htaccess",
+		"/D/wamp/www/dub-level-hmvc/.htaccess",
+		"/D/wamp/www/fuel/fuel/packages/social/classes/twitter.php",
+		"/D/wamp/www/fuel/fuel/app/classes/controller/login.php",
+		"/D/wamp/www/fuel/fuel/packages/social/config/twitter.php",
+		"/D/wamp/www/fuel/fuel/packages/social/config/facebook.php",
+		"/D/wamp/www/fuel/fuel/core/config/session.php",
+		"/D/wamp/www/fuel/fuel/app/classes/controller/search.php",
+		"/D/wamp/www/fuel/fuel/app/views/search/index.php",
+		"/D/wamp/www/fuel/public/assets/css/bootstrap.css",
+		"/D/wamp/www/fuel/fuel/app/classes/controller/admin.php",
+		"/D/wamp/www/fuel/fuel/app/classes/controller/admin/items.php",
+		"/D/wamp/www/fuel/fuel/app/classes/controller/music/index.php",
+		"/D/wamp/www/fuel/fuel/packages/auth/classes/auth/login/simpleauth.php",
+		"/D/wamp/www/fuel/fuel/app/classes/controller/register.php",
+		"/D/wamp/www/fuel/fuel/app/views/welcome/index.php",
+		"/D/wamp/www/fuel/fuel/app/classes/model/item.php",
+		"/D/wamp/www/dub-level-hmvc/application/modules/music/models/MusicModel.php",
+		"/D/wamp/www/dub-level-hmvc/assets/css/form.css",
+		"/D/wamp/www/dub-level-hmvc/application/config/database.php",
+		"/C/Users/Daniel/AppData/Local/Temp/fz3temp-1/database.php",
+		"/D/wamp/www/fuel/fuel/app/views/admin/template.php",
+		"/D/wamp/www/fuel/fuel/app/views/admin/login.php",
+		"/D/wamp/www/fuel/fuel/app/views/music/index/index.php",
+		"/D/wamp/www/fuel/fuel/app/views/admin/items/create.php",
+		"/D/wamp/www/fuel/fuel/app/classes/model/user/comment.php",
+		"/D/wamp/www/fuel/fuel/app/views/welcome/404.php",
+		"/D/wamp/www/fuel/fuel/app/views/welcome/hello.php",
+		"/D/wamp/www/fuel/fuel/app/classes/controller/site.php",
+		"/D/wamp/www/fuel/fuel/app/classes/controller/dashboard.php",
+		"/D/wamp/www/fuel/fuel/app/classes/controller/user/dashboard.php",
+		"/D/wamp/www/fuel/fuel/app/classes/controller/user/settings.php",
+		"/D/wamp/www/fuel/fuel/core/classes/html.php",
+		"/D/wamp/www/dub-level-hmvc/application/helpers/app_helper.php",
+		"/D/wamp/www/fuel/fuel/app/views/admin/items/index.php",
+		"/D/wamp/www/dub-level-hmvc/application/modules/music/views/itemsNew.php"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Pulse",
+			"staticfunction",
+			"	",
+			"and",
+			" and Request::active()->controller != 'Controller_Login'",
+			"css_render_inline",
+			"css",
+			"getAccessKey",
+			"function get",
+			"get()",
+			"get",
+			"setAccessTokens",
+			"tweetOauth",
+			"h1",
+			"0",
+			"launch",
+			");",
+			"username",
+			"footer",
+			"pink",
+			";",
+			"m-i",
+			"echo",
+			"();",
+			"echo",
+			"						$",
+			"beaconpush",
+			"form",
+			"logout",
+			"slideOut-innerContent",
+			"220px",
+			"layer",
+			"thing",
+			"thingy",
+			"pl",
+			"player",
+			"));",
+			"20px",
+			"overflow",
+			"{"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/wamp/www/pulse/Public/pulseFramework.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true
+}
