@@ -9,10 +9,21 @@
  * @category  Boostrap
  */
 
+if( ! function_exists('alias'))
+{
+	function alias($array)
+	{
+		foreach($array as $class => $alias)
+		{
+			class_alias($class, $alias);
+		}
+	}
+}
+
+
 //////////////////////////////////
 //Let's define a few constants; //
 //////////////////////////////////
-
 defined('DS') or define('DS', DIRECTORY_SEPARATOR);
 
 /** We need to get the relative path according to the file system. */
@@ -41,34 +52,40 @@ if( ! function_exists('run_autoloader'))
 		// Load our autoloader class. (Use require because it's faster).		
 		require(COREPATH . 'Classes/Autoloader.php');
 
-		//Add the namespace to the system;
-		\Pulse\Core\Autoloader::add_namespace('\\Pulse\\Core', COREPATH . 'Classes/');
-
 		//Now let's define all the paths for the system.
-		\Pulse\Core\Autoloader::add_classes(array(
-				'Pulse\\Core\\Pulse' => COREPATH . 'Classes/Pulse.php',
-				'Pulse\\Core\\Config' => COREPATH . 'Classes/Config.php',
-				'Pulse\\Core\\Driver' => COREPATH . 'Classes/Driver.php',
-				'Pulse\\Core\\Event' => COREPATH . 'Classes/Event.php',
-				'Pulse\\Core\\Database' => COREPATH . 'Classes/Database.php',
-				'Pulse\\Core\\Inout' => COREPATH . 'Classes/Input.php',
-				'Pulse\\Core\\Package' => COREPATH . 'Classes/Package.php',
-				'Pulse\\Core\\Session' => COREPATH . 'Classes/Session.php',
+		\Package\Core\Autoloader::add_classes(array(
+				'Package\\Core\\Pulse' => COREPATH . 'Classes/Pulse.php',
+				'Package\\Core\\Config' => COREPATH . 'Classes/Config.php',
+				'Package\\Core\\Driver' => COREPATH . 'Classes/Driver.php',
+				'Package\\Core\\Event' => COREPATH . 'Classes/Event.php',
+				'Package\\Core\\Database' => COREPATH . 'Classes/Database.php',
+				'Package\\Core\\Input' => COREPATH . 'Classes/Input.php',
+				'Package\\Core\\Package' => COREPATH . 'Classes/Package.php',
+				'Package\\Core\\Session' => COREPATH . 'Classes/Session.php',
+				'Package\\Core\\Error' => COREPATH . 'Classes/Error.php',
 			));
 
-		\Pulse\Core\Autoloader::register();
+		\Package\Core\Autoloader::register();
 
-		! class_exists('Autoloader') and class_alias('Pulse\\Core\\Autoloader', 'Autoloader');
-		! class_exists('Pulse') and class_alias('\\Pulse\\Core\\Pulse', 'Pulse');
-		! class_exists('Event') and class_alias('\\Pulse\\Core\\Event', 'Event');
-		! class_exists('Config') and class_alias('\\Pulse\\Core\\Config', 'Config');
-		! class_exists('Input') and class_alias('\\Pulse\\Core\\Input', 'Input');
+		alias(array(
+				'Package\\Core\\Autoloader' => 'Autoloader',
+				'Package\\Core\\Pulse'      => 'Pulse',
+				'Package\\Core\\Event' 	  => 'Event',
+				'Package\\Core\\Config'     => 'Config',
+				'Package\\Core\\Input'	  => 'Input',
+				'Package\\Core\\Error' 	  => 'Error'
+			));
 	}
 
 }
 
 //Run the autoloader;
 run_autoloader();
+
+//Set the error reporting;
+set_exception_handler(array('Error', 'handle'));
+
+throw new Exception('Undefined Index : 1');
 
 //////////////////////////////////////
 // Now let's load the pulse class //

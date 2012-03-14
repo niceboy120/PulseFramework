@@ -1,6 +1,6 @@
 <?php
 
-namespace Pulse\Core;
+namespace Package\Core;
 
 /**
  * Input class
@@ -275,7 +275,7 @@ class Input
 	 */
 	public static function get($index = null, $default = null)
 	{
-		return (is_null($index) and func_num_args() === 0) ? $_GET : \Arr::get($_GET, $index, $default);
+		return (is_null($index) and func_num_args() === 0) ? $_GET : $_GET[$index];
 	}
 
 	/**
@@ -287,7 +287,7 @@ class Input
 	 */
 	public static function post($index = null, $default = null)
 	{
-		return (is_null($index) and func_num_args() === 0) ? $_POST : \Arr::get($_POST, $index, $default);
+		return (is_null($index) and func_num_args() === 0) ? $_POST : $_POST[$index];
 	}
 
 	/**
@@ -304,7 +304,7 @@ class Input
 			static::hydrate();
 		}
 
-		return (is_null($index) and func_num_args() === 0) ? static::$put_delete : \Arr::get(static::$put_delete, $index, $default);
+		return (is_null($index) and func_num_args() === 0) ? static::$put_delete : static::$put_delete[$index];
 	}
 
 	/**
@@ -321,7 +321,7 @@ class Input
 			static::hydrate();
 		}
 
-		return (is_null($index) and func_num_args() === 0) ? static::$put_delete : \Arr::get(static::$put_delete, $index, $default);
+		return (is_null($index) and func_num_args() === 0) ? static::$put_delete : static::$put_delete[$index];
 	}
 
 	/**
@@ -333,7 +333,7 @@ class Input
 	 */
 	public static function file($index = null, $default = null)
 	{
-		return (is_null($index) and func_num_args() === 0) ? $_FILES : \Arr::get($_FILES, $index, $default);
+		return (is_null($index) and func_num_args() === 0) ? $_FILES : $_FILES[$index];
 	}
 
 	/**
@@ -375,7 +375,7 @@ class Input
 	 */
 	public static function cookie($index = null, $default = null)
 	{
-		return (is_null($index) and func_num_args() === 0) ? $_COOKIE : \Arr::get($_COOKIE, $index, $default);
+		return (is_null($index) and func_num_args() === 0) ? $_COOKIE : $_COOKIE[$index];
 	}
 
 	/**
@@ -387,7 +387,7 @@ class Input
 	 */
 	public static function server($index = null, $default = null)
 	{
-		return (is_null($index) and func_num_args() === 0) ? $_SERVER : \Arr::get($_SERVER, strtoupper($index), $default);
+		return (is_null($index) and func_num_args() === 0) ? $_SERVER : (isset($_SERVER[strtoupper($index)])) ?: null;
 	}
 
 	/**

@@ -1,6 +1,6 @@
 <?php
 //Let's Define our current namespace;
-namespace Pulse\Core;
+namespace Package\Core;
 
 //Our Global Config class;
 class Config{

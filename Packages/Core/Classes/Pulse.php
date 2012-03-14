@@ -1,6 +1,6 @@
 <?php
 
-namespace Pulse\Core;
+namespace Package\Core;
 
 class Pulse{
 	public static $is_cli = false;
